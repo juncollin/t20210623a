@@ -12,6 +12,8 @@
 		A34E60AF26829054001A383A /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A34E60AE26829054001A383A /* Experience.rcproject */; };
 		A34E60B126829055001A383A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34E60B026829055001A383A /* Assets.xcassets */; };
 		A34E60B426829055001A383A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34E60B326829055001A383A /* Preview Assets.xcassets */; };
+		A34E60BB2683751F001A383A /* metal.metal in Sources */ = {isa = PBXBuildFile; fileRef = A34E60BA2683751F001A383A /* metal.metal */; };
+		A34E60BF2683DBC7001A383A /* RealityGeometries in Frameworks */ = {isa = PBXBuildFile; productRef = A34E60BE2683DBC7001A383A /* RealityGeometries */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		A34E60AE26829054001A383A /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		A34E60B026829055001A383A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A34E60B326829055001A383A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A34E60BA2683751F001A383A /* metal.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = metal.metal; sourceTree = "<group>"; };
+		A34E60BC2683DB98001A383A /* RealityGeometries-main */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "RealityGeometries-main"; path = "../../RealityGeometries-main"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A34E60BF2683DBC7001A383A /* RealityGeometries in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +44,7 @@
 			children = (
 				A34E60A926829054001A383A /* t20210623a */,
 				A34E60A826829054001A383A /* Products */,
+				A34E60BD2683DBC7001A383A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +64,8 @@
 				A34E60AE26829054001A383A /* Experience.rcproject */,
 				A34E60B026829055001A383A /* Assets.xcassets */,
 				A34E60B226829055001A383A /* Preview Content */,
+				A34E60BA2683751F001A383A /* metal.metal */,
+				A34E60BC2683DB98001A383A /* RealityGeometries-main */,
 			);
 			path = t20210623a;
 			sourceTree = "<group>";
@@ -68,6 +76,13 @@
 				A34E60B326829055001A383A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A34E60BD2683DBC7001A383A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +101,9 @@
 			dependencies = (
 			);
 			name = t20210623a;
+			packageProductDependencies = (
+				A34E60BE2683DBC7001A383A /* RealityGeometries */,
+			);
 			productName = t20210623a;
 			productReference = A34E60A726829054001A383A /* t20210623a.app */;
 			productType = "com.apple.product-type.application";
@@ -143,6 +161,7 @@
 				A34E60AD26829054001A383A /* ContentView.swift in Sources */,
 				A34E60AB26829054001A383A /* AppDelegate.swift in Sources */,
 				A34E60AF26829054001A383A /* Experience.rcproject in Sources */,
+				A34E60BB2683751F001A383A /* metal.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +366,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A34E60BE2683DBC7001A383A /* RealityGeometries */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityGeometries;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A34E609F26829054001A383A /* Project object */;
 }
